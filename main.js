@@ -34,3 +34,7 @@
                           'Error: Your browser doesn\'t support geolocation.');
     infoWindow.open(map);
   }
+
+  var str = "The best things in life are free";
+  var patt = new RegExp("e");
+  var res = patt.test(str);
