@@ -14,3 +14,10 @@
 setTimeout(function () {
   console.log('Paused 1 second.');
 }, 1000);
+
+for (i in myObj.cars) {
+    x += "<h1>" + myObj.cars[i].name + "</h1>";
+    for (j in myObj.cars[i].models) {
+        x += myObj.cars[i].models[j];
+    }
+}
