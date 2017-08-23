@@ -1,19 +1,13 @@
 
- function outputPrimeNums(primes)
- {
-  var html = "<h2>Prime Numbers</h2>";
-  for (i=0;i<primes.length;i++){
-   html += primes[i] + "<br/>";
-  }
-  document.getElementById('output_content').innerHTML = html;
-  }
-
-  var doubled = arr.map(function (num) {
-  return num * 2
-});
-setTimeout(function () {
-  console.log('Paused 1 second.');
-}, 1000);
+myObj = {
+   "name":"John",
+   "age":30,
+   "cars": [
+       { "name":"Ford", "models":[ "Fiesta", "Focus", "Mustang" ] },
+       { "name":"BMW", "models":[ "320", "X3", "X5" ] },
+       { "name":"Fiat", "models":[ "500", "Panda" ] }
+   ]
+}
 
 for (i in myObj.cars) {
     x += "<h1>" + myObj.cars[i].name + "</h1>";
