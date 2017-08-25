@@ -1,17 +1,32 @@
 
-myObj = {
-   "name":"John",
-   "age":30,
-   "cars": [
-       { "name":"Ford", "models":[ "Fiesta", "Focus", "Mustang" ] },
-       { "name":"BMW", "models":[ "320", "X3", "X5" ] },
-       { "name":"Fiat", "models":[ "500", "Panda" ] }
-   ]
-}
+var j=1;
 
-for (i in myObj.cars) {
-    x += "<h1>" + myObj.cars[i].name + "</h1>";
-    for (j in myObj.cars[i].models) {
-        x += myObj.cars[i].models[j];
-    }
-}
+	var output = "<table border='1' width='500' cellspacing='0'cellpadding='5'>";
+
+	for(i=1;i<=rows;i++)
+
+	{
+
+	  output = output + "<tr>";
+
+	  while(j<=cols)
+
+	  {
+
+	     output = output + "<td>" + i*j + "</td>";
+
+	     j = j+1;
+
+	  }
+
+	  output = output + "</tr>";
+
+	  j = 1;
+
+	}
+
+	output = output + "</table>";
+
+	document.write(output);
+
+	}
