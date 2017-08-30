@@ -1,6 +1,30 @@
 
-var friends = survivors 
+var img1 = document.querySelector('.img-1');
 
-friends.forEach(function (eachName, index){
-console.log(index + 1 + ". " + eachName); // 1. Mike, 2. Stacy, 3. Andy, 4. Rick​
+function loaded() {
+  // woo yey image loaded
+}
+
+if (img1.complete) {
+  loaded();
+}
+else {
+  img1.addEventListener('load', loaded);
+}
+
+img1.addEventListener('error', function() {
+  // argh everything's broken
+});
+
+img1.callThisIfLoadedOrWhenLoaded(function() {
+  // loaded
+}).orIfFailedCallThis(function() {
+  // failed
+});
+
+// and…
+whenAllTheseHaveLoaded([img1, img2]).callThis(function() {
+  // all loaded
+}).orIfSomeFailedCallThis(function() {
+  // one or more failed
 });
