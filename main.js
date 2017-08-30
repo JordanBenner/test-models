@@ -1,32 +1,6 @@
 
-var j=1;
+var friends = survivors 
 
-	var output = "<table border='1' width='500' cellspacing='0'cellpadding='5'>";
-
-	for(i=1;i<=rows;i++)
-
-	{
-
-	  output = output + "<tr>";
-
-	  while(j<=cols)
-
-	  {
-
-	     output = output + "<td>" + i*j + "</td>";
-
-	     j = j+1;
-
-	  }
-
-	  output = output + "</tr>";
-
-	  j = 1;
-
-	}
-
-	output = output + "</table>";
-
-	document.write(output);
-
-	}
+friends.forEach(function (eachName, index){
+console.log(index + 1 + ". " + eachName); // 1. Mike, 2. Stacy, 3. Andy, 4. Rick​
+});
