@@ -8,3 +8,4 @@ function loadXMLDoc() {
   };
   xmlhttp.open("GET", "cd_catalog.xml", true);
   xmlhttp.send();
+}
