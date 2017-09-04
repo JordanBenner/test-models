@@ -23,11 +23,3 @@ function myFunction(xml) {
   }
   document.getElementById("demo").innerHTML = table;
 }
-
-var i;
-var l = arr.length;
-for (i = 0; i < l; i++) {
-
-  var obj;
-  obj = document.getElementById("demo");
-  obj.innerHTML = "Hello";
