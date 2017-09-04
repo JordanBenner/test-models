@@ -5,6 +5,15 @@ function loadXMLDoc() {
     if (this.readyState == 4 && this.status == 200) {
       myFunction(this);
     }
+
+    if (window.XMLHttpRequest) {
+
+        xmlhttp = new XMLHttpRequest();
+     } else {
+      
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+
   };
   xmlhttp.open("GET", "cd_catalog.xml", true);
   xmlhttp.send();
