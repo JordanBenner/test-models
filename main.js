@@ -51,7 +51,7 @@ $a[] = "Vicky";
 // get the q parameter from URL
 $q = $_REQUEST["q"];
 
-$hint = "";
+$hint = ""
 
 // lookup all hints from array if $q is different from ""
 if ($q !== "") {
