@@ -14,4 +14,3 @@ function showHint(str) {
         xmlhttp.open("GET", "gethint.php?q=" + str, true);
         xmlhttp.send();
     }
-}
