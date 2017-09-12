@@ -1,6 +1,6 @@
 
-x = myObj.cars[0];
-
-for (i in myObj.cars) {
-    x += myObj.cars[i];
+if (confirm("Press a button!") == true) {
+    txt = "You pressed OK!";
+} else {
+    txt = "You pressed Cancel!";
 }
