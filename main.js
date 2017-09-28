@@ -15,8 +15,8 @@ function loadDoc(url, cFunction) {
 }
 
 function myFunction1(xhttp) {
-  // action goes here
+
 }
 function myFunction2(xhttp) {
-  // action goes here
+
 }
