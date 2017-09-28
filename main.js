@@ -15,8 +15,8 @@ function loadDoc(url, cFunction) {
 }
 
 function myFunction1(xhttp) {
-
+// request 1
 }
 function myFunction2(xhttp) {
-
+// request 2
 }
