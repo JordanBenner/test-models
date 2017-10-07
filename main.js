@@ -91,3 +91,9 @@ para.appendChild(node);
 
 var element = document.getElementById("div1");
 element.appendChild(para);
+
+function clickButton() {
+    var s = document.createElement("script");
+    s.src = "demo_jsonp.php";
+    document.body.appendChild(s);
+}
