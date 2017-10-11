@@ -97,7 +97,3 @@ function clickButton() {
     s.src = "demo_jsonp.php";
     document.body.appendChild(s);
 }
-
-catch(err) {
-    document.getElementById("demo").innerHTML = err.message;
-}
