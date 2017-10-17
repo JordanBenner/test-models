@@ -80,7 +80,4 @@ function showHint(str) {
                 document.getElementById("txtHint").innerHTML = this.responseText;
             }
         };
-        xmlhttp.open("GET", "gethint.asp?q=" + str, true);
-        xmlhttp.send();
-    }
-}
+        
