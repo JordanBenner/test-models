@@ -40,6 +40,4 @@ function showCustomer(str) {
     document.getElementById("txtHint").innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", "getcustomer.asp?q="+str, true);
-  xhttp.send();
-}
+  
