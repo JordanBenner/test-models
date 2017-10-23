@@ -27,9 +27,3 @@ function myFunction1(xhttp) {
 function myFunction2(xhttp) {
 // request 2
 }
-
-function showCustomer(str) {
-  var xhttp;
-  if (str == "") {
-    document.getElementById("txtHint").innerHTML = "";
-    return;
