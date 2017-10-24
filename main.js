@@ -1,6 +1,6 @@
 loadDoc("url-1", myFunction1);
 
-loadDoc("url-2", myFunction2);
+
 
 if (window.XMLHttpRequest) {
     // code for modern browsers
@@ -24,6 +24,6 @@ function loadDoc(url, cFunction) {
 function myFunction1(xhttp) {
 // request 1
 }
-function myFunction2(xhttp) {
-// request 2
-}
+// function myFunction2(xhttp) {
+// // request 2
+// }
