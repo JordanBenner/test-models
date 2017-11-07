@@ -1,5 +1,4 @@
-/* Always set the map height explicitly to define the size of the div
- * element that contains the map. */
+
 #map {
   height: 100%;
 }
@@ -21,4 +20,9 @@ html, body {
     height: 50px;
     position: absolute;
     background: red;
+}
+div {
+    -ms-transform: translate(50px, 100px); /* IE 9 */
+    -webkit-transform: translate(50px, 100px); /* Safari */
+    transform: translate(50px, 100px);
 }
