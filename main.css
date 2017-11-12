@@ -36,3 +36,7 @@ a:focus {
 table, th, td {
    border: 1px solid black;
 }
+
+p {
+    margin: 25px 50px 75px 100px;
+}
