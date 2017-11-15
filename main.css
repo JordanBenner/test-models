@@ -40,3 +40,8 @@ table, th, td {
 p {
     margin: 25px 50px 75px 100px;
 }
+
+.center {
+    text-align: center;
+    border: 3px solid green;
+}
