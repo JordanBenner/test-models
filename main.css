@@ -61,3 +61,7 @@ div el1{
       width: 500px;
       background-color: powderblue;
   }
+
+  a:link {
+    color: #FF0000;
+}
