@@ -73,3 +73,7 @@ div el1{
     display: inline-block;
     font-size: 16px;
 }
+
+selector:pseudo-class {
+    property:value;
+}
