@@ -77,3 +77,8 @@ div el1{
 selector:pseudo-class {
     property:150%;
 }
+
+p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+}
