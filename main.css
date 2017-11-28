@@ -86,3 +86,9 @@ p::first-line {
 div > p {
     background-color: yellow;
 }
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
