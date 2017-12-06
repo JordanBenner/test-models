@@ -108,3 +108,9 @@ img {
 .after-box {
     clear: left;
 }
+
+.buttons button:active {
+  color: white;
+  background: linear-gradient(#666, #222);
+  border: 1px solid black;
+}
