@@ -33,7 +33,7 @@ function myFunction(xml) {
   var xmlDoc = xml.responseXML;
   var table="<tr><th>Artist</th><th>Title</th></tr>";
   var x = xmlDoc.getElementsByTagName("CD");
-  for (i = 0; i <x.length; i++) { 
+  for (i = 0; i <x.length; i++) {
     table += "<tr><td>" +
     x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
     "</td><td>" +
@@ -41,4 +41,20 @@ function myFunction(xml) {
     "</td></tr>";
   }
   document.getElementById("log").innerHTML = table;
+}
+
+function showCustomer(str) {
+  var xhttp;
+  if (str == "") {
+    document.getElementById("txtHint").innerHTML = "";
+    return;
+  }
+  xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("txtHint").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "getcustomer.asp?q="+str, true);
+  xhttp.send();
 }
