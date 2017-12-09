@@ -114,3 +114,16 @@ img {
   background: linear-gradient(#666, #222);
   border: 1px solid black;
 }
+
+.hand {
+  padding: 10px;
+  border-radius: 3px;
+  height: 100px;
+  background: #9fe558;
+  margin-bottom: 10px;
+}
+
+.hand label {
+  float: left;
+  margin: 0 5px;
+}
