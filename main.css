@@ -109,6 +109,8 @@ img {
     clear: left;
 }
 
+/*the btn modules*/
+
 .buttons button:active {
   color: white;
   background: linear-gradient(#666, #222);
@@ -130,4 +132,10 @@ img {
 
 .buttons button:focus {
   outline: none;
+}
+
+.buttons button:active {
+  color: white;
+  background: linear-gradient(#666, #222);
+  border: 1px solid black;
 }
