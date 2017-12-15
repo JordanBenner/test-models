@@ -139,3 +139,10 @@ img {
   background: linear-gradient(#666, #222);
   border: 1px solid black;
 }
+
+#messages {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 5px;
+  height: 2em;
+}
