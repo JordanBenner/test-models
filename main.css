@@ -165,3 +165,9 @@ img {
   border-radius: 40px;
   background: linear-gradient(#9fe558 0%, #8edb3d 40%, #67c200 100%) no-repeat no-repeat;
 }
+
+.buttons button:active {
+  color: white;
+  background: linear-gradient(#666, #222);
+  border: 1px solid black;
+}
