@@ -171,3 +171,7 @@ img {
   background: linear-gradient(#666, #222);
   border: 1px solid black;
 }
+
+.card {
+  height: 100%;
+}
