@@ -175,3 +175,15 @@ img {
 .card {
   height: 100%;
 }
+
+.hand label {
+  float: left;
+  margin: 0 5px;
+}
+
+.hand img {
+  width: 57px;
+  display: block;
+  float: left;
+  margin-left: 5px;
+}
