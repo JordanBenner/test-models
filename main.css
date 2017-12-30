@@ -187,3 +187,11 @@ img {
   float: left;
   margin-left: 5px;
 }
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
