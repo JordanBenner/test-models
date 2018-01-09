@@ -250,3 +250,7 @@ p.test2 {
     position: absolute;
     z-index: 1;
 }
+
+h1 {
+    text-shadow: 2px 2px;
+}
