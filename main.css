@@ -272,3 +272,10 @@ div.ex2 {
     font-family: myFirstFont;
     src: url(sansation_light.woff);
 }
+
+div {
+    width: 200px;
+    height: 50px;
+    background-color: #eee;
+    overflow: visible;
+}
