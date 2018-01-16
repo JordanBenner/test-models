@@ -279,3 +279,7 @@ div {
     background-color: #eee;
     overflow: visible;
 }
+
+img {
+    float: right;
+}
