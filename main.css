@@ -299,3 +299,8 @@ img {
     padding: 12px 16px;
     z-index: 10;
 }
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
