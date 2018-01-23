@@ -304,3 +304,10 @@ p {
     font-family: verdana;
     font-size: 20px;
 }
+
+.dropdown-content {
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
