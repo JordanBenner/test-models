@@ -337,3 +337,10 @@ h1 {
     color: white;
     text-align: center;
 }
+
+.cbox{
+    margin: auto;
+    width: 50%;
+    border: 3px grey;
+    padding: 10px;
+}
