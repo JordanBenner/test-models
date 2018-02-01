@@ -349,3 +349,8 @@ h1 {
     text-align: center;
     border: 3px solid green;
 }
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+  }
