@@ -354,3 +354,11 @@ img {
     opacity: 0.5;
     filter: alpha(opacity=50);
   }
+
+.animate {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
