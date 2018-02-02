@@ -362,3 +362,7 @@ img {
     animation-name: example;
     animation-duration: 4s;
 }
+
+table, th, td {
+   border: 1px solid green;
+}
