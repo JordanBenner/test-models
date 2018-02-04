@@ -366,3 +366,9 @@ img {
 table, th, td {
    border: 1px solid green;
 }
+
+#borderimg {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30 round;
+}
