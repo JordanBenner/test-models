@@ -405,3 +405,9 @@ div {
 a:hover {
     color: #FF00FF;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
