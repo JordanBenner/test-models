@@ -439,3 +439,7 @@ ul {
     padding-bottom: 50px;
     padding-left: 80px;
 }
+
+.window {
+    float: left;;
+}
