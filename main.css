@@ -475,3 +475,10 @@ p.ex1 {
     outline-style: solid;
     outline-color: red;
 }
+
+.popup{
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
