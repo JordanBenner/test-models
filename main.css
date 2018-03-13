@@ -482,3 +482,7 @@ p.ex1 {
     padding: 25px;
     margin: 25px;
 }
+
+.popup {
+    border: 1px solid black;
+}
