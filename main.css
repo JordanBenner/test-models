@@ -486,3 +486,7 @@ p.ex1 {
 .popup {
     border: 1px solid black;
 }
+
+.popup {
+    float: right;;
+}
