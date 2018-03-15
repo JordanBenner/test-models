@@ -494,3 +494,10 @@ p.ex1 {
 ul {
     list-style-image: url('sqpurple.gif');
 }
+
+.popup {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
