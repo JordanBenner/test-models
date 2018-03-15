@@ -490,3 +490,7 @@ p.ex1 {
 .popup {
     float: right;;
 }
+
+ul {
+    list-style-image: url('sqpurple.gif');
+}
