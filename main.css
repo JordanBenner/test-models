@@ -518,3 +518,7 @@ ul {
 p {
     font-family: "Times New Roman", Times, serif;
 }
+
+.popup {
+    margin: 25px 50px 75px;
+}
