@@ -522,3 +522,8 @@ p {
 .popup {
     margin: 25px 50px 75px;
 }
+
+.popup {
+    position: static;
+    border: 3px solid #73AD21;
+}
