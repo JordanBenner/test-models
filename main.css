@@ -537,3 +537,10 @@ div.ex1 {
     margin: auto;
     border: 3px solid #73AD21;
 }
+
+div.ex1 {
+    width: 200px;
+    height: 50px;
+    background-color: #eee;
+    overflow: visible;
+}
