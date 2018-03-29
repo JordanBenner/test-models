@@ -544,3 +544,8 @@ div.ex1 {
     background-color: #eee;
     overflow: visible;
 }
+
+div.static {
+    position: static;
+    border: 3px solid #73AD21;
+}
