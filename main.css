@@ -549,3 +549,7 @@ div.static {
     position: static;
     border: 3px solid #73AD21;
 }
+
+img {
+    opacity: 0.5;
+}
