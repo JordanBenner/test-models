@@ -559,3 +559,11 @@ div.relative {
     left: 30px;
     border: 3px solid #73AD21;
 }
+
+ul.a {
+    list-style-position: outside;
+}
+
+ul.b {
+    list-style-position: inside;
+}
