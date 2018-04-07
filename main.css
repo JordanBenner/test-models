@@ -567,3 +567,9 @@ ul.a {
 ul.b {
     list-style-position: inside;
 }
+
+div.ex1 {
+    width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
