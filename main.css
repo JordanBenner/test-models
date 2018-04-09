@@ -577,3 +577,11 @@ div.ex1 {
 p {
     font-family: "Times New Roman", Times, serif;
 }
+
+ul.a {
+    list-style-type: circle;
+}
+
+ul.b {
+    list-style-type: square;
+}
