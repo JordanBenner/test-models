@@ -595,3 +595,8 @@ table {
 table {
     float: left;
 }
+
+table {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
